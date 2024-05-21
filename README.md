@@ -89,7 +89,7 @@ Conclusion
 The flood monitoring application provides a practical solution for real-time flood detection and alerting. The project demonstrates effective use of object-oriented programming, API integration, and background services in Android development.
 
 ## Clone the repository:
-git clone https://github.com/yourusername/flood-monitoring-app.git
+git clone https://github.com/Saahil-Shahzad/FloodEarlyWarningSystem.git
 cd flood-monitoring-app
 Home Fragment: Displays water levels and sensor status.
 Weather Fragment: Shows weather information.
