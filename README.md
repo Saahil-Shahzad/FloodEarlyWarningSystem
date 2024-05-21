@@ -57,26 +57,7 @@ Manages data fetching from ThingSpeak.
 Runs in the background to monitor water levels and notify users.
 ### Fragments: 
 Individual fragments for different sections of the app.
-### Example Code Snippet
-public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
-    private static final int THRESHOLD = 10;
-    private WaterLevelUpdateReceiver waterLevelUpdateReceiver = new WaterLevelUpdateReceiver();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-        replaceFragment(new HomeFragment());
-    }
-
-    private void replaceFragment(Fragment fragment) {
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.fragment_container, fragment)
-                .commit();
-    }
-}
 ## Results and Evaluation
 The application successfully monitors water levels and alerts users in case of potential flooding. Screenshots of the main modules and error handling mechanisms demonstrate the app's functionality and robustness.
 
