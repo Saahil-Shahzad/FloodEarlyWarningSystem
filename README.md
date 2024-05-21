@@ -9,9 +9,7 @@
 7. [Implementation](#implementation)
 8. [Results and Evaluation](#results-and-evaluation)
 9. [Future Work](#future-work)
-10. [Conclusion](#conclusion)
-11. [References](#references)
-12. [Setup and Usage](#setup-and-usage)
+10. [Clone the Repository](#clone-the-repository)
 
 ## Abstract
 This project is an Android application designed to monitor water levels in real-time using an ESP32 sensor connected to an ultrasonic sensor. The app fetches water level data from ThingSpeak, displays various related metrics, and notifies users of potential flood risks. Key features include real-time data visualization, flood risk assessment, and user notifications.
