@@ -9,7 +9,6 @@
 7. [Implementation](#implementation)
 8. [Results and Evaluation](#results-and-evaluation)
 9. [Future Work](#future-work)
-10. [Clone the Repository](#clone-the-repository)
 
 ## Abstract
 This project is an Android application designed to monitor water levels in real-time using an ESP32 sensor connected to an ultrasonic sensor. The app fetches water level data from ThingSpeak, displays various related metrics, and notifies users of potential flood risks. Key features include real-time data visualization, flood risk assessment, and user notifications.
@@ -66,12 +65,3 @@ Expand support for multiple sensors.
 Implement additional notification channels (e.g., SMS, email).
 Conclusion
 The flood monitoring application provides a practical solution for real-time flood detection and alerting. The project demonstrates effective use of object-oriented programming, API integration, and background services in Android development.
-
-## Clone the repository:
-git clone https://github.com/Saahil-Shahzad/FloodEarlyWarningSystem.git
-cd flood-monitoring-app
-Home Fragment: Displays water levels and sensor status.
-Weather Fragment: Shows weather information.
-Directions Fragment: Provides navigation directions.
-Emergency Fragment: Lists emergency contacts.
-Safety Fragment: Displays safety tips and information.
