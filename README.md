@@ -63,5 +63,3 @@ Integrate more sophisticated flood prediction algorithms.
 Enhance UI/UX for better user interaction.
 Expand support for multiple sensors.
 Implement additional notification channels (e.g., SMS, email).
-Conclusion
-The flood monitoring application provides a practical solution for real-time flood detection and alerting. The project demonstrates effective use of object-oriented programming, API integration, and background services in Android development.
